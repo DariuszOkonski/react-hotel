@@ -1,0 +1,40 @@
+.showcase {
+  min-height: 50vh;
+  text-align: center;
+  color: $second-light;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .7)), url('../img/main.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__header {
+    font-size: 2em;
+  }
+
+  &__paragraph {
+    font-size: 0.8em;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  @media(min-width: 1025px) {
+    &__header {
+      font-size: 3em;
+    }
+
+    &__paragraph {
+      font-size: 1.125em;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      font-size: 1.125em;
+    }
+  }
+}

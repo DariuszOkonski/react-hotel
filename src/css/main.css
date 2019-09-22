@@ -25,6 +25,7 @@ h1,
 h2,
 h3 {
   margin-bottom: 20px;
+  font-size: 2em;
 }
 
 .container {
@@ -52,6 +53,24 @@ h3 {
 
 .py-3 {
   padding: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #f7c08a;
+  color: #333;
 }
 
 .navigation {
@@ -96,6 +115,7 @@ h3 {
   font-weight: 100;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .navbar {
@@ -133,6 +153,51 @@ h3 {
   .navbar__link:hover {
     background-color: #444;
     color: #f7c08a;
+  }
+}
+
+.showcase {
+  min-height: 50vh;
+  text-align: center;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/main.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/main.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.showcase__header {
+  font-size: 2em;
+}
+
+.showcase__paragraph {
+  font-size: 0.8em;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+@media (min-width: 1025px) {
+  .showcase__header {
+    font-size: 3em;
+  }
+  .showcase__paragraph {
+    font-size: 1.125em;
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
+  .showcase .btn {
+    font-size: 1.125em;
   }
 }
 /*# sourceMappingURL=main.css.map */
