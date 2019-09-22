@@ -5,10 +5,10 @@ const Navigation = () => {
   return (
     <nav className="navigation">
       <div className="container nav">
-        <h1 className="nav__logo text-royal">
+        <h2 className="nav__logo text-royal">
           <span className="text-first">
             <i className="fa fa-diamond" aria-hidden="true"></i> Hotel</span> Royal
-        </h1>
+        </h2>
 
         <ul className="nav__navbar navbar">
           <li className="navbar__item">
