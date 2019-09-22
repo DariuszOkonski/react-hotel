@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <React.Fragment>
 
         <Navigation />
