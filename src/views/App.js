@@ -1,10 +1,16 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Navigation from './Navigation';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hotel</h1>
-    </div>
+    <BrowserRouter>
+      <React.Fragment>
+
+        <Navigation />
+
+      </React.Fragment>
+    </BrowserRouter>
   );
 }
 
