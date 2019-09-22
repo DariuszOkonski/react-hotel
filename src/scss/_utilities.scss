@@ -36,9 +36,17 @@
 .btn-dark {
   background-color: $first-dark;
   color: $second-light;
+  transition: .2s;
 }
 
-.btn-dark:hover {
+.btn-light {
+  background-color: $third-dark;
+  color: $first-dark;
+  transition: .2s;
+}
+
+.btn-dark:hover,
+.btn-light:hover {
   background-color: $first-light;
   color: $first-dark;
 }
