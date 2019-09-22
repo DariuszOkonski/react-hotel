@@ -7,8 +7,7 @@ const Navigation = () => {
       <div className="container nav">
         <h1 className="nav__logo text-royal">
           <span className="text-first">
-            <i className="fa fa-diamond" aria-hidden="true"></i>
-            Hotel</span> Royal
+            <i className="fa fa-diamond" aria-hidden="true"></i> Hotel</span> Royal
         </h1>
 
         <ul className="nav__navbar navbar">
