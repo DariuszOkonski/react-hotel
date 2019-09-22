@@ -11,7 +11,7 @@ const Showcase = () => {
 
         <p className="showcase__paragraph">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi assumenda accusantium rerum, maxime, aperiam ipsam inventore repellat minima suscipit vel explicabo voluptas quis! Eos, illo dolor autem quas accusantium, vel esse ullam, possimus est corrupti quae voluptatibus cum neque libero.
-      </p>
+        </p>
 
         <Link to='/about' className="btn btn-dark">About Our Hotel</Link>
       </div>
