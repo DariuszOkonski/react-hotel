@@ -1,8 +1,11 @@
 import React from 'react';
+import AboutInfo from '../components/AboutInfo';
 
 const About = () => {
   return (
-    <h1>About</h1>
+    <React.Fragment>
+      <AboutInfo />
+    </React.Fragment>
   );
 }
 
