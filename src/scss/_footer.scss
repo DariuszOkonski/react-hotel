@@ -1,0 +1,19 @@
+.footer {
+  background-color: $second-dark;
+  padding: 10px;
+  text-align: center;
+
+  &__paragraph {
+    font-size: 0.8rem;
+    color: $first-light;
+  }
+
+  @media(min-width: 1025px) {
+    padding: 20px 10px;
+
+    &__paragraph {
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+  }
+}

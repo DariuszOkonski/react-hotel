@@ -380,4 +380,25 @@ h3 {
 .box:nth-child(3) {
   background-color: #aaa;
 }
+
+.footer {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer__paragraph {
+  font-size: 0.8rem;
+  color: #f7c08a;
+}
+
+@media (min-width: 1025px) {
+  .footer {
+    padding: 20px 10px;
+  }
+  .footer__paragraph {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
