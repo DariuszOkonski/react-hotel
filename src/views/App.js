@@ -5,6 +5,7 @@ import Home from '../layouts/Home';
 import About from '../layouts/About';
 import Contact from '../layouts/Contact';
 import Error from '../layouts/Error';
+import Footer from '../views/Footer';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <Route exact path='/contact' component={Contact} />
           <Route component={Error} />
         </Switch>
+
+        <Footer />
 
       </React.Fragment>
     </BrowserRouter>
