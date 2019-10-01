@@ -1,0 +1,25 @@
+.contact-boxes-bg {
+  background-color: $first-dark;
+}
+
+.contact-boxes {
+  display: flex;
+  flex-direction: column;
+
+  .box {
+    background-color: $first-dark;
+    color: $second-light;
+
+    &__icon {
+      font-size: 2rem;
+    }
+  }
+
+  @media(min-width: 1025px) {
+    flex-direction: row;
+
+    .box {
+      flex-basis: 33.3333%;
+    }
+  }
+}

@@ -599,4 +599,40 @@ h3 {
     font-size: 1rem;
   }
 }
+
+.contact-boxes-bg {
+  background-color: #333;
+}
+
+.contact-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-boxes .box {
+  background-color: #333;
+  color: #fff;
+}
+
+.contact-boxes .box__icon {
+  font-size: 2rem;
+}
+
+@media (min-width: 1025px) {
+  .contact-boxes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contact-boxes .box {
+    -ms-flex-preferred-size: 33.3333%;
+        flex-basis: 33.3333%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
