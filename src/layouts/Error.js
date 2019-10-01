@@ -2,7 +2,9 @@ import React from 'react';
 
 const Error = () => {
   return (
-    <h1>Error</h1>
+    <section className="error">
+      <p className="error__paragraph">Some Error Occour...</p>
+    </section>
   );
 }
 
