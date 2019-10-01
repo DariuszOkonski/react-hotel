@@ -529,4 +529,74 @@ h3 {
     line-height: 1.7;
   }
 }
+
+.contact {
+  padding: 20px 10px;
+  background-color: #fff;
+}
+
+.contact__header {
+  font-size: 2em;
+}
+
+.contact__paragraph {
+  margin: 10px auto;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 1025px) {
+  .contact__paragraph {
+    margin: 20px auto;
+    font-size: 1rem;
+  }
+}
+
+.contact-form__label, .contact-form__input, .contact-form__textarea {
+  display: block;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 1025px) {
+  .contact-form__label, .contact-form__input, .contact-form__textarea {
+    font-size: 1rem;
+  }
+}
+
+.contact-form__label {
+  margin: 10px 0 5px;
+}
+
+.contact-form__input, .contact-form__textarea {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.contact-form__textarea {
+  min-height: 100px;
+}
+
+.contact-form__button {
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+@media (min-width: 1025px) {
+  .contact-form__label {
+    margin: 20px 0 10px;
+  }
+  .contact-form__input, .contact-form__textarea {
+    padding: 10px;
+  }
+  .contact-form__textarea {
+    min-height: 200px;
+  }
+  .contact-form__button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
