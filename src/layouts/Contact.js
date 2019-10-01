@@ -1,8 +1,11 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
   return (
-    <h1>Contact</h1>
+    <React.Fragment>
+      <ContactForm />
+    </React.Fragment>
   );
 }
 
